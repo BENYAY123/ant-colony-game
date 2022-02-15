@@ -5,3 +5,10 @@ var minorlarva = 0;
 var majorlarva = 0;
 var minorpupa = 0;
 var majorpupa = 0;
+
+
+function updates() {
+  document.getElementById("queennum").innerHTML = queens;
+}
+
+setInterval(updates,1)
